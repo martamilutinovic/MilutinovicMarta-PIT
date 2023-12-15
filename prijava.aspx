@@ -94,10 +94,10 @@
             <br />
             Razred:
             <asp:RadioButtonList ID="rblRazred" runat="server">
-                <asp:ListItem Text="I" Value="0"></asp:ListItem>
-                <asp:ListItem Text="II" Value="1"></asp:ListItem>
-                <asp:ListItem Text="III" Value="2"></asp:ListItem>
-                <asp:ListItem Text="IV" Value="3"></asp:ListItem>
+                <asp:ListItem Text="I" Value="1."></asp:ListItem>
+                <asp:ListItem Text="II" Value="2."></asp:ListItem>
+                <asp:ListItem Text="III" Value="3."></asp:ListItem>
+                <asp:ListItem Text="IV" Value="4."></asp:ListItem>
             </asp:RadioButtonList>
             <asp:RequiredFieldValidator ID="rblRazredValidator"
                 ErrorMessage="Required"
